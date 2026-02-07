@@ -1,405 +1,650 @@
+<!-- index.html -->
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-AR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Kora Agency - Agencia de automatización inteligente para empresas y emprendedores">
-    <meta name="keywords" content="automatización, agencia, procesos, tecnología, inteligencia artificial">
-    <title>Kora Agency - Tecnología que impulsa tu crecimiento</title>
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Automatización de procesos e IA para empresas | KORA</title>
+  <meta name="description" content="Automatizamos procesos empresariales con inteligencia artificial, bots y flujos de trabajo automáticos. Diseñamos el camino hacia una operación eficiente." />
+  <meta name="keywords" content="automatización de procesos, inteligencia artificial para empresas, automatización operativa, flujos de trabajo automáticos, transformación digital empresarial, bots de WhatsApp, automatización administrativa, automatización financiera, gestión documental automática, OCR facturas" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#020617" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Automatización de procesos e IA para empresas | KORA" />
+  <meta property="og:description" content="Automatizamos procesos empresariales con inteligencia artificial, bots y flujos de trabajo automáticos. Diseñamos el camino hacia una operación eficiente." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_AR" />
+  <meta property="og:image" content="assets/imagenes/logok.png" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Automatización de procesos e IA para empresas | KORA" />
+  <meta name="twitter:description" content="Automatizamos procesos empresariales con IA, bots y flujos de trabajo automáticos." />
+
+  <!-- Fonts (Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/imagenes/logok.png" type="image/png" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Structured Data (basic Organization + WebSite) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "KORA",
+        "alternateName": "Kora Agency",
+        "logo": "assets/imagenes/logok.png",
+        "email": "hola@koraagency.com",
+        "sameAs": [
+          "https://www.linkedin.com/company/koraagency"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "name": "Kora Agency",
+        "url": "https://koraagency.com"
+      }
+    ]
+  }
+  </script>
 </head>
+
 <body>
-    <!-- Header -->
-    <header>
-        <nav>
-            <div class="logo-container">
-                <div class="logo-image">
-                    <img src="assets/imagenes/logok.png" alt="Kora Agency Logo">
-                </div>
-                <div class="logo">KORA AGENCY</div>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#about">Nosotros</a></li>
-                <li><a href="#services">Servicios</a></li>
-                <li><a href="#process">Proceso</a></li>
-                <li><a href="#benefits">Beneficios</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-            <a href="#contact" class="nav-cta">Agendar llamada</a>
-        </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-background">
-            <div class="hero-overlay"></div>
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo-container">
+        <div class="logo-image">
+          <img src="assets/imagenes/logok.png" alt="Kora Agency Logo" />
         </div>
-        <div class="hero-content">
-            <div class="hero-label">AUTOMATIZACIÓN INTELIGENTE</div>
-          <h1 class="hero-title">
-             Automatización de procesos
-             <span>para empresas que quieren vender más y trabajar mejor</span>
-          </h1>
+        <div class="logo">KORA AGENCY</div>
+      </div>
 
-         <p class="hero-subtitle">
-         Diseñamos sistemas de automatización que ahorran tiempo, reducen errores
-          y mejoran la gestión comercial. Procesos reales, resultados reales.
-            </p>
+      <ul class="nav-links" aria-label="Navegación principal">
+        <li><a href="#about">Nosotros</a></li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#process">Proceso</a></li>
+        <li><a href="#specialization">Especialización</a></li>
+        <li><a href="#forwho">Para quién</a></li>
+        <li><a href="#benefits">Por qué KORA</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
 
-            <div class="hero-cta">
-                <a href="#contact" class="btn btn-primary">Comenzar ahora</a>
-                <a href="#about" class="btn btn-secondary">Ver cómo funciona</a>
-            </div>
+      <a href="#contact" class="nav-cta">Solicitar diagnóstico</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="top">
+    <div class="hero-background">
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-label">AUTOMATIZACIÓN INTELIGENTE</div>
+
+      <h1 class="hero-title">
+        Automatización de procesos e
+        <span>inteligencia artificial para empresas</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        Diseñamos el camino para que tus procesos avancen solos mediante flujos automáticos y sistemas inteligentes.
+        En KORA creamos recorridos operativos claros: desde la atención y los datos hasta los cobros, documentos y operaciones internas.
+      </p>
+
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary">Solicitar diagnóstico</a>
+        <a href="#about" class="btn btn-secondary">Ver cómo funciona</a>
+      </div>
+    </div>
+
+    <!-- Quick Stats -->
+    <div class="hero-stats" aria-label="Resultados esperados">
+      <div class="stat-item">
+        <div class="stat-icon">⚡</div>
+        <div class="stat-content">
+        <div class="stat-number" data-value="70" data-suffix="%">70%</div>
+          <div class="stat-label">Reducción de costos</div>
         </div>
+      </div>
 
-        <!-- Quick Stats -->
-        <div class="hero-stats">
-            <div class="stat-item">
-                <div class="stat-icon">⚡</div>
-                <div class="stat-content">
-                    <div class="stat-number">70%</div>
-                    <div class="stat-label">Reducción de costos</div>
-                </div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-icon">⏱️</div>
-                <div class="stat-content">
-                    <div class="stat-number">10 días</div>
-                    <div class="stat-label">Implementación rápida</div>
-                </div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-icon">📈</div>
-                <div class="stat-content">
-                    <div class="stat-number">24/7</div>
-                    <div class="stat-label">Operación continua</div>
-                </div>
-            </div>
+      <div class="stat-item">
+        <div class="stat-icon">⏱️</div>
+        <div class="stat-content">
+          <div class="stat-number" data-value="10" data-suffix=" días">10 días</div>
+          <div class="stat-label">Implementación rápida</div>
         </div>
+      </div>
 
-        <div class="scroll-indicator">
-            <span class="scroll-text">SCROLL DOWN</span>
-            <div class="scroll-line"></div>
+      <div class="stat-item">
+        <div class="stat-icon">📈</div>
+        <div class="stat-content">
+          <div class="stat-number" data-static="true">24/7</div>
+          <div class="stat-label">Operación continua</div>
         </div>
-    </section>
+      </div>
+    </div>
 
-    <!-- About Section -->
-    <section class="about-section" id="about">
-        <div class="section-number">01</div>
-        <div class="about-grid">
-            <div class="about-content">
-                <div class="section-label">QUIÉNES SOMOS</div>
-                <h2 class="section-title">Tecnología aplicada de forma simple y estratégica</h2>
-                <p class="about-text">
-                    Somos Kora Agency, una agencia especializada en automatización de procesos, atención y operaciones. Nos apasiona la tecnología aplicada de forma simple y estratégica para que los negocios trabajen mejor, gasten menos tiempo en tareas repetitivas y puedan crecer de manera organizada.
-                </p>
-                <p class="about-text">
-                    Creamos soluciones que combinan funcionalidad, estética y las últimas innovaciones tecnológicas. Cada proyecto es único y diseñado específicamente para maximizar la eficiencia de tu negocio.
-                </p>
-                <a href="#contact" class="read-more">Trabajar con nosotros →</a>
-            </div>
-            <div class="about-image">
-                <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80" alt="Team collaboration">
-            </div>
+    <div class="scroll-indicator" role="button" aria-label="Ir a la sección Nosotros" tabindex="0">
+      <span class="scroll-text">DESLIZÁ</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="section-number">01</div>
+
+    <div class="about-grid">
+      <div class="about-content">
+        <div class="section-label">QUIÉNES SOMOS</div>
+        <h2 class="section-title">Quiénes somos en KORA</h2>
+
+        <p class="about-text">
+          KORA es una firma especializada en automatización operativa y diseño de flujos de trabajo automáticos.
+          Ayudamos a empresas a recorrer el camino de transformación desde procesos manuales hacia sistemas que funcionan de forma continua.
+        </p>
+
+        <p class="about-text">
+          El nombre KORA representa camino, proceso y recorrido: no un cambio instantáneo, sino una evolución estructurada
+          donde cada automatización es una etapa del viaje.
+        </p>
+
+        <a href="#contact" class="read-more">Trabajar con nosotros →</a>
+      </div>
+
+      <div class="about-image">
+        <img
+          src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=80"
+          alt="Equipo colaborando"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section" id="services">
+    <div class="section-number">02</div>
+
+    <div class="section-header">
+      <div class="section-label">SERVICIOS</div>
+      <h2 class="section-title">Servicios de automatización e inteligencia artificial</h2>
+      <p class="section-description">
+        Diseñamos e implementamos sistemas automáticos completos, conectando herramientas, datos e IA en flujos que avanzan sin intervención humana.
+      </p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-number">01</div>
+        <div class="service-icon">⚙️</div>
+        <h3 class="service-title">Automatización de procesos empresariales</h3>
+        <p class="service-description">
+          Digitalizamos y automatizamos procesos operativos de punta a punta, eliminando tareas manuales repetitivas y reduciendo errores.
+        </p>
+        <ul class="service-features">
+          <li>Automatización end-to-end</li>
+          <li>Integraciones API</li>
+          <li>Flujos automáticos</li>
+          <li>KPIs y trazabilidad</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <div class="service-number">02</div>
+        <div class="service-icon">🤖</div>
+        <h3 class="service-title">Bots y agentes inteligentes</h3>
+        <p class="service-description">
+          Implementamos bots y agentes de IA capaces de atender, analizar, ejecutar acciones y hacer seguimientos automáticos.
+        </p>
+        <ul class="service-features">
+          <li>Bots de WhatsApp</li>
+          <li>Agentes IA</li>
+          <li>Seguimientos automáticos</li>
+          <li>Integración con CRM</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <div class="service-number">03</div>
+        <div class="service-icon">💳</div>
+        <h3 class="service-title">Automatización administrativa y financiera</h3>
+        <p class="service-description">
+          Automatizamos cobros, conciliaciones, documentos y reportes para lograr control financiero sin fricción operativa.
+        </p>
+        <ul class="service-features">
+          <li>Conciliación automática</li>
+          <li>Reportes y dashboards</li>
+          <li>Documentos y comprobantes</li>
+          <li>Alertas y seguimiento</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <div class="service-number">04</div>
+        <div class="service-icon">📄</div>
+        <h3 class="service-title">Gestión automática de datos y documentos</h3>
+        <p class="service-description">
+          Creamos flujos que organizan, procesan y protegen datos y documentos sin intervención manual.
+        </p>
+        <ul class="service-features">
+          <li>Gestión documental automática</li>
+          <li>OCR de facturas</li>
+          <li>Normalización de datos</li>
+          <li>Backups y control</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section class="process-section" id="process">
+    <div class="section-number">03</div>
+
+    <div class="section-header">
+      <div class="section-label">PROCESO</div>
+      <h2 class="section-title">Cómo trabajamos en KORA</h2>
+      <p class="section-description">
+        Entendemos la automatización como un recorrido, no como una solución aislada: diseñamos el camino, implementamos y optimizamos con el tiempo.
+      </p>
+    </div>
+
+    <div class="process-timeline">
+      <div class="process-step">
+        <div class="step-image">
+          <img
+            src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80"
+            alt="Diagnóstico"
+            loading="lazy"
+            decoding="async"
+          />
         </div>
-    </section>
-
-    <!-- Services Section -->
-    <section class="services-section" id="services">
-        <div class="section-number">02</div>
-        <div class="section-header">
-            <div class="section-label">SERVICIOS</div>
-            <h2 class="section-title">Qué hacemos por tu negocio</h2>
-            <p class="section-description">Soluciones integrales de automatización diseñadas para impulsar tu crecimiento</p>
+        <div class="step-content">
+          <div class="step-number">01</div>
+          <h3 class="step-title">Diagnóstico de procesos actuales</h3>
+          <p class="step-description">
+            Analizamos tu operación, detectamos cuellos de botella y priorizamos oportunidades de automatización con impacto real.
+          </p>
         </div>
+      </div>
 
-        <div class="services-grid">
-            <div class="service-card">
-                <div class="service-number">01</div>
-                <div class="service-icon">📩</div>
-                <h3 class="service-title">Automatización de mensajes y atención</h3>
-                <p class="service-description">
-                    Implementamos sistemas de chat inteligentes, CRM integrados, respuestas automáticas y embudos conversacionales que mejoran la experiencia de tus clientes mientras reduces la carga operativa.
-                </p>
-                <ul class="service-features">
-                    <li>Chatbots con IA</li>
-                    <li>Integración CRM</li>
-                    <li>WhatsApp Business</li>
-                    <li>Email automation</li>
-                </ul>
-            </div>
-
-            <div class="service-card">
-                <div class="service-number">02</div>
-                <div class="service-icon">⚙️</div>
-                <h3 class="service-title">Automatización de tareas operativas</h3>
-                <p class="service-description">
-                    Conectamos tus herramientas existentes, creamos flujos automáticos y eliminamos tareas manuales repetitivas para que tu equipo se enfoque en lo que realmente importa.
-                </p>
-                <ul class="service-features">
-                    <li>Integraciones API</li>
-                    <li>Flujos de trabajo</li>
-                    <li>Sincronización de datos</li>
-                    <li>Reportes automáticos</li>
-                </ul>
-            </div>
-
-            <div class="service-card">
-                <div class="service-number">03</div>
-                <div class="service-icon">📊</div>
-                <h3 class="service-title">Optimización de procesos</h3>
-                <p class="service-description">
-                    Analizamos tu operación actual, identificamos cuellos de botella y diseñamos soluciones personalizadas que maximizan la eficiencia en cada área de tu negocio.
-                </p>
-                <ul class="service-features">
-                    <li>Diagnóstico completo</li>
-                    <li>Mapeo de procesos</li>
-                    <li>KPIs y métricas</li>
-                    <li>Mejora continua</li>
-                </ul>
-            </div>
-
-            <div class="service-card">
-                <div class="service-number">04</div>
-                <div class="service-icon">🤖</div>
-                <h3 class="service-title">Implementación de herramientas inteligentes</h3>
-                <p class="service-description">
-                    Desarrollamos bots personalizados, implementamos soluciones de IA y creamos herramientas a medida que se adaptan perfectamente a las necesidades específicas de tu negocio.
-                </p>
-                <ul class="service-features">
-                    <li>Bots personalizados</li>
-                    <li>IA aplicada</li>
-                    <li>Machine Learning</li>
-                    <li>Soluciones custom</li>
-                </ul>
-            </div>
+      <div class="process-step reverse">
+        <div class="step-image">
+          <img
+            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80"
+            alt="Diseño del camino operativo"
+            loading="lazy"
+            decoding="async"
+          />
         </div>
-    </section>
-
-    <!-- Process Section -->
-    <section class="process-section" id="process">
-        <div class="section-number">03</div>
-        <div class="section-header">
-            <div class="section-label">PROCESO</div>
-            <h2 class="section-title">Cómo trabajamos</h2>
-            <p class="section-description">Un proceso simple, transparente y efectivo</p>
+        <div class="step-content">
+          <div class="step-number">02</div>
+          <h3 class="step-title">Diseño del camino operativo</h3>
+          <p class="step-description">
+            Definimos el recorrido: herramientas, datos, puntos de control y flujos automáticos, con objetivos medibles y un plan claro.
+          </p>
         </div>
+      </div>
 
-        <div class="process-timeline">
-            <div class="process-step">
-                <div class="step-image">
-                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=80" alt="Análisis">
-                </div>
-                <div class="step-content">
-                    <div class="step-number">01</div>
-                    <h3 class="step-title">Analizamos tu negocio</h3>
-                    <p class="step-description">
-                        Realizamos una consultoría inicial gratuita donde conocemos a fondo tus procesos actuales, desafíos específicos y objetivos de crecimiento. Identificamos oportunidades de mejora y definimos prioridades.
-                    </p>
-                </div>
-            </div>
-
-            <div class="process-step reverse">
-                <div class="step-image">
-                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80" alt="Estrategia">
-                </div>
-                <div class="step-content">
-                    <div class="step-number">02</div>
-                    <h3 class="step-title">Diseñamos la solución perfecta</h3>
-                    <p class="step-description">
-                        Creamos una estrategia personalizada de automatización, seleccionamos las herramientas más adecuadas y diseñamos los flujos de trabajo optimizados. Te presentamos un plan claro con tiempos y resultados esperados.
-                    </p>
-                </div>
-            </div>
-
-            <div class="process-step">
-                <div class="step-image">
-                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&q=80" alt="Implementación">
-                </div>
-                <div class="step-content">
-                    <div class="step-number">03</div>
-                    <h3 class="step-title">Implementamos y capacitamos</h3>
-                    <p class="step-description">
-                        Ponemos en marcha las automatizaciones, integramos todas las herramientas y capacitamos a tu equipo para que aprovechen al máximo las nuevas soluciones. Garantizamos una transición suave y sin interrupciones.
-                    </p>
-                </div>
-            </div>
-
-            <div class="process-step reverse">
-                <div class="step-image">
-                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" alt="Optimización">
-                </div>
-                <div class="step-content">
-                    <div class="step-number">04</div>
-                    <h3 class="step-title">Medimos y optimizamos</h3>
-                    <p class="step-description">
-                        Monitoreamos constantemente los resultados, analizamos métricas clave y realizamos ajustes para maximizar el impacto. Nuestro soporte continuo asegura que sigas obteniendo el máximo valor de tu inversión.
-                    </p>
-                </div>
-            </div>
+      <div class="process-step">
+        <div class="step-image">
+          <img
+            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1200&q=80"
+            alt="Implementación"
+            loading="lazy"
+            decoding="async"
+          />
         </div>
-    </section>
-
-    <!-- Benefits Section -->
-    <section class="benefits-section" id="benefits">
-        <div class="section-number">04</div>
-        <div class="benefits-container">
-            <div class="benefits-header">
-                <div class="section-label">BENEFICIOS</div>
-                <h2 class="section-title">Por qué elegirnos</h2>
-            </div>
-
-            <div class="benefits-grid">
-                <div class="benefit-card">
-                    <div class="benefit-icon">💰</div>
-                    <h3>Ahorro de tiempo y recursos</h3>
-                    <p>Reducí hasta un 70% el tiempo invertido en tareas repetitivas y liberá a tu equipo para actividades estratégicas de mayor valor.</p>
-                </div>
-
-                <div class="benefit-card">
-                    <div class="benefit-icon">✓</div>
-                    <h3>Menos errores operativos</h3>
-                    <p>Eliminá errores humanos y garantizá consistencia en todos tus procesos con automatizaciones precisas y confiables.</p>
-                </div>
-
-                <div class="benefit-card">
-                    <div class="benefit-icon">⚡</div>
-                    <h3>Mejor atención al cliente</h3>
-                    <p>Respondé más rápido, disponible 24/7, con respuestas consistentes que mejoran la satisfacción y fidelización de tus clientes.</p>
-                </div>
-
-                <div class="benefit-card">
-                    <div class="benefit-icon">📊</div>
-                    <h3>Procesos más claros</h3>
-                    <p>Visibilidad total de tu operación con reportes en tiempo real y métricas que te ayudan a tomar mejores decisiones.</p>
-                </div>
-
-                <div class="benefit-card">
-                    <div class="benefit-icon">🚀</div>
-                    <h3>Escalabilidad sin límites</h3>
-                    <p>Crecé sin preocuparte por aumentar costos operativos. Nuestras soluciones escalan con tu negocio automáticamente.</p>
-                </div>
-
-                <div class="benefit-card">
-                    <div class="benefit-icon">🎯</div>
-                    <h3>Más resultados con menos esfuerzo</h3>
-                    <p>Maximizá la productividad de tu equipo y aumentá los resultados sin necesidad de contratar más personal.</p>
-                </div>
-            </div>
+        <div class="step-content">
+          <div class="step-number">03</div>
+          <h3 class="step-title">Implementación de flujos automáticos</h3>
+          <p class="step-description">
+            Construimos, integramos y ponemos en marcha. Capacitamos a tu equipo y dejamos el sistema funcionando con soporte.
+          </p>
         </div>
-    </section>
+      </div>
 
-    <!-- CTA Section -->
-    <section class="cta-section">
-        <div class="cta-content">
-            <h2 class="cta-title">¿Listo para transformar tu negocio?</h2>
-            <p class="cta-subtitle">Agendá una consultoría gratuita y descubrí cómo la automatización puede impulsar tu crecimiento</p>
-            <a href="#contact" class="btn btn-large">Comenzar ahora →</a>
+      <div class="process-step reverse">
+        <div class="step-image">
+          <img
+            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80"
+            alt="Optimización"
+            loading="lazy"
+            decoding="async"
+          />
         </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact-section" id="contact">
-        <div class="section-number">05</div>
-        <div class="contact-container">
-            <div class="contact-info">
-                <div class="section-label">CONTACTO</div>
-                <h2 class="section-title">Hablemos de tu proyecto</h2>
-                <p class="contact-text">
-                    ¿Tenés dudas? ¿Querés saber más sobre cómo podemos ayudarte? Completá el formulario y nos pondremos en contacto dentro de las próximas 24 horas.
-                </p>
-                <div class="contact-details">
-                    <div class="detail-item">
-                        <div class="detail-icon">📧</div>
-                        <div>
-                            <div class="detail-label">Email</div>
-                            <div class="detail-value">hola@koraagency.com</div>
-                        </div>
-                    </div>
-                    <div class="detail-item">
-                        <div class="detail-icon">💬</div>
-                        <div>
-                            <div class="detail-label">WhatsApp</div>
-                            <div class="detail-value">+54 9 11 XXXX-XXXX</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <form class="contact-form" id="contactForm">
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="name">Nombre completo *</label>
-                        <input type="text" id="name" name="name" required placeholder="Juan Pérez">
-                    </div>
-                    <div class="form-group">
-                        <label for="company">Empresa</label>
-                        <input type="text" id="company" name="company" placeholder="Tu empresa (opcional)">
-                    </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="email">Email *</label>
-                        <input type="email" id="email" name="email" required placeholder="tu@email.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="whatsapp">WhatsApp *</label>
-                        <input type="tel" id="whatsapp" name="whatsapp" required placeholder="+54 9 11 1234-5678">
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label for="message">Contanos sobre tu proyecto *</label>
-                    <textarea id="message" name="message" required placeholder="Describe qué necesitás automatizar, cuáles son tus objetivos y cualquier otro detalle relevante..."></textarea>
-                </div>
-
-                <button type="submit" class="btn btn-primary btn-full">Enviar consulta</button>
-            </form>
+        <div class="step-content">
+          <div class="step-number">04</div>
+          <h3 class="step-title">Optimización y mejora continua</h3>
+          <p class="step-description">
+            Medimos resultados, ajustamos reglas y escalamos automatizaciones para que el recorrido sea cada vez más eficiente.
+          </p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-brand">
-                <div class="footer-logo">
-                    <img src="assets/imagenes/logok.png" alt="Kora Agency Logo">
-                    <span>KORA AGENCY</span>
-                </div>
-                <p class="footer-tagline">Tecnología que impulsa tu crecimiento</p>
-            </div>
+  <!-- Specialization Section -->
+  <section class="services-section" id="specialization">
+    <div class="section-number">04</div>
 
-            <div class="footer-links">
-                <div class="footer-column">
-                    <h4>Empresa</h4>
-                    <ul>
-                        <li><a href="#about">Nosotros</a></li>
-                        <li><a href="#services">Servicios</a></li>
-                        <li><a href="#process">Proceso</a></li>
-                        <li><a href="#benefits">Beneficios</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>Contacto</h4>
-                    <ul>
-                        <li><a href="#contact">Formulario</a></li>
-                        <li><a href="mailto:hola@koraagency.com">Email</a></li>
-                        <li><a href="#">WhatsApp</a></li>
-                    </ul>
-                </div>
-            </div>
+    <div class="section-header">
+      <div class="section-label">ESPECIALIZACIÓN</div>
+      <h2 class="section-title">Nuestra especialización en automatización</h2>
+      <p class="section-description">
+        Automatización operativa real: procesos con camino claro y medible, integrando IA, datos y sistemas internos.
+      </p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">🧩</div>
+        <h3 class="service-title">Flujos de trabajo automáticos</h3>
+        <p class="service-description">
+          Diseño end-to-end con integraciones reales, control de estados y trazabilidad operativa.
+        </p>
+        <ul class="service-features">
+          <li>Flujos automáticos</li>
+          <li>Reglas y estados</li>
+          <li>Alertas y SLAs</li>
+          <li>Medición de impacto</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🤝</div>
+        <h3 class="service-title">Agentes IA que ejecutan acciones</h3>
+        <p class="service-description">
+          IA aplicada que hace cosas: responde, registra, mueve datos y dispara procesos en tus herramientas.
+        </p>
+        <ul class="service-features">
+          <li>Acciones reales</li>
+          <li>Seguimiento automático</li>
+          <li>Contexto y memoria</li>
+          <li>Escalamiento humano</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">💬</div>
+        <h3 class="service-title">Automatización WhatsApp-first</h3>
+        <p class="service-description">
+          Captación, atención y seguimiento 24/7 con mensajes inteligentes y CRM integrado.
+        </p>
+        <ul class="service-features">
+          <li>WhatsApp + CRM</li>
+          <li>Embudo conversacional</li>
+          <li>Agenda y recordatorios</li>
+          <li>Calificación de leads</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🗂️</div>
+        <h3 class="service-title">Operación y documentos sin fricción</h3>
+        <p class="service-description">
+          Datos, archivos y reportes ordenados automáticamente: menos caos, más control.
+        </p>
+        <ul class="service-features">
+          <li>Gestión documental</li>
+          <li>OCR y clasificación</li>
+          <li>Backups y auditoría</li>
+          <li>Accesos y permisos</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- For Who Section -->
+  <section class="benefits-section" id="forwho">
+    <div class="section-number">05</div>
+
+    <div class="benefits-container">
+      <div class="benefits-header">
+        <div class="section-label">PARA QUIÉN ES</div>
+        <h2 class="section-title">Para qué empresas es KORA</h2>
+        <p class="section-description">
+          Trabajamos con organizaciones que necesitan orden, eficiencia y escalabilidad a través de automatización.
+        </p>
+      </div>
+
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-icon">🏢</div>
+          <h3>PYMEs</h3>
+          <p>Orden operativo, menos tareas manuales y más foco en crecer.</p>
         </div>
 
-        <div class="footer-bottom">
-            <p class="team">Facundo Salazar | Hernán Stupniki | Tobias Tarnowski</p>
-            <p class="copyright">© 2025 Kora Agency. Todos los derechos reservados.</p>
+        <div class="benefit-card">
+          <div class="benefit-icon">📚</div>
+          <h3>Estudios profesionales</h3>
+          <p>Procesos repetitivos, documentos, cobros y seguimiento de clientes.</p>
         </div>
-    </footer>
 
-    <!-- JavaScript -->
-    <script src="js/main.js"></script>
+        <div class="benefit-card">
+          <div class="benefit-icon">🧰</div>
+          <h3>Empresas de servicios</h3>
+          <p>Atención, agenda, tickets y operación continua con control.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">🛒</div>
+          <h3>E-commerce</h3>
+          <p>Pedidos, soporte, avisos, etiquetas y gestión automatizada.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">🏠</div>
+          <h3>Inmobiliarias</h3>
+          <p>Leads, agenda, seguimiento y automatización comercial.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">💬</div>
+          <h3>Negocios con atención</h3>
+          <p>WhatsApp + CRM + automatizaciones 24/7 para responder mejor.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits / Why KORA -->
+  <section class="benefits-section" id="benefits">
+    <div class="section-number">06</div>
+
+    <div class="benefits-container">
+      <div class="benefits-header">
+        <div class="section-label">DIFERENCIAL</div>
+        <h2 class="section-title">Por qué elegir KORA</h2>
+        <p class="section-description">
+          Diseñamos recorridos operativos claros y automatizamos procesos completos, no tareas sueltas.
+        </p>
+      </div>
+
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-icon">🧭</div>
+          <h3>Recorridos operativos claros</h3>
+          <p>Diseño del camino: etapas, estados, responsables y medición.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">🔗</div>
+          <h3>Automatización end-to-end</h3>
+          <p>Integraciones reales entre herramientas, datos y equipos.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">🤖</div>
+          <h3>IA aplicada a sistemas reales</h3>
+          <p>Agentes y bots que ejecutan acciones, no solo “responden”.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">✓</div>
+          <h3>Menos errores, más control</h3>
+          <p>Consistencia, trazabilidad y alertas para operar con seguridad.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">📊</div>
+          <h3>Medible y escalable</h3>
+          <p>Métricas claras para optimizar y escalar sin sumar caos.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">🚀</div>
+          <h3>Más resultados con menos esfuerzo</h3>
+          <p>Tu equipo se libera de repetición y se enfoca en valor.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="cta-content">
+      <h2 class="cta-title">Empezá el camino de automatización con <strong>KORA</strong></h2>
+      <p class="cta-subtitle">
+        Transformá tus procesos en sistemas automáticos y recorré el camino hacia una operación más eficiente.
+      </p>
+      <a href="#contact" class="btn btn-primary btn-large">Solicitar diagnóstico →</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <div class="section-number">07</div>
+
+    <div class="contact-container">
+      <div class="contact-info">
+        <div class="section-label">CONTACTO</div>
+        <h2 class="section-title">Hablemos de tu proyecto</h2>
+        <p class="contact-text">
+          ¿Querés automatizar y ordenar tu operación? Completá el formulario y te respondemos dentro de las próximas 24 horas.
+        </p>
+
+        <div class="contact-details">
+          <div class="detail-item">
+            <div class="detail-icon">📧</div>
+            <div>
+              <div class="detail-label">Email</div>
+              <div class="detail-value">
+                <a href="mailto:hola@koraagency.com" style="color: inherit; text-decoration: none;">hola@koraagency.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="detail-item">
+            <div class="detail-icon">💬</div>
+            <div>
+              <div class="detail-label">WhatsApp</div>
+              <div class="detail-value">
+                <a href="https://wa.me/54911XXXXXXXXXX" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
+                  +54 9 11 XXXX-XXXX
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Nombre completo *</label>
+            <input type="text" id="name" name="name" required placeholder="Juan Pérez" autocomplete="name" />
+          </div>
+
+          <div class="form-group">
+            <label for="company">Empresa</label>
+            <input type="text" id="company" name="company" placeholder="Tu empresa (opcional)" autocomplete="organization" />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required placeholder="tu@email.com" autocomplete="email" />
+          </div>
+
+          <div class="form-group">
+            <label for="whatsapp">WhatsApp *</label>
+            <input type="tel" id="whatsapp" name="whatsapp" required placeholder="+54 9 11 1234-5678" autocomplete="tel" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Contanos sobre tu proyecto *</label>
+          <textarea
+            id="message"
+            name="message"
+            required
+            placeholder="Qué necesitás automatizar, qué herramientas usás hoy y cuál es tu objetivo..."
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-full">Enviar consulta</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="assets/imagenes/logok.png" alt="Kora Agency Logo" />
+          <span>KORA AGENCY</span>
+        </div>
+        <p class="footer-tagline">
+          KORA — Automatización de procesos e inteligencia artificial aplicada a empresas. Argentina.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-column">
+          <h4>Empresa</h4>
+          <ul>
+            <li><a href="#about">Nosotros</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#process">Proceso</a></li>
+            <li><a href="#benefits">Por qué KORA</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Contacto</h4>
+          <ul>
+            <li><a href="#contact">Formulario</a></li>
+            <li><a href="mailto:hola@koraagency.com">Email</a></li>
+            <li><a href="https://wa.me/54911XXXXXXXXXX" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+            <li><a href="https://www.linkedin.com/company/koraagency" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="team">Facundo Salazar | Hernán Stupniki | Tobias Tarnowski</p>
+      <p class="copyright">© 2026 Kora Agency. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js" defer></script>
 </body>
 </html>
